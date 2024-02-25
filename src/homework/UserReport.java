@@ -1,5 +1,7 @@
 package homework;
 
+import static java.lang.System.out;
+
 public class UserReport {
     public User user;
 
@@ -8,11 +10,9 @@ public class UserReport {
     }
 
 
-
-
     public void save() {
-            System.out.println("Save: " + user.getName());
-        }
-
+        System.out.println("Save: " + user.getName());
     }
 
+
+    }
